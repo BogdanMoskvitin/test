@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bogdan Moskvitin - Test</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<button id="click_btn" class="click_btn">Кликни</button>
+
+	<div class="modal" id="modal">
+		<div class="flex">
+			<button id="close_btn"><img class="img_cross" src="images/cross.png"></button>
+			<div>
+				<p class="title">Получите набор файлов <br>для руководителя</p>
+				<div class="box_img">
+					<img class="img_icom" src="images/icom.png">
+					<img class="img_file" src="images/file.png">
+				</div>
+				<p class="title2">Получите набор файлов <br>для руководителя</p>
+			</div>
+			<form id="form">
+				<label class="subtitle">Введите Email для получения файлов:</label>
+
+				<input id="email" type="email" name="email" placeholder="Email">
+
+				<label class="subtitle">Введите телефон для подтверждения доступа:</label>
+				
+				<input id="phone" type="phone" name="phone" placeholder="+7 (000) 000-00-00">
+				
+				<button type="submit" id="download_btn" class="download_btn">Скачать файлы
+					<img class="img_hand" src="images/hand.png">
+				</button>
+				
+				<div class="spans">
+					<span>PDF 4,7 MB</span>
+					<span>DOC 0,8 MB</span>
+					<span>XLS 1,2 MB</span>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
